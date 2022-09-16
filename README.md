@@ -52,3 +52,6 @@ Run using CPU:
 ```
 CUDA_VISIBLE_DEVICES=CPU python inference.py
 ```
+
+## Acknowledgements
+We referred to [HiFi-GAN](https://github.com/jik876/hifi-gan) to implement this.
