@@ -22,5 +22,7 @@ matplotlib==3.1.3
 
 ## Data Preparation
 For training, write the list paths of training set and validation set to `input_training_wav_list` and `input_validation_wav_list` in `config.json`, respectively.
+
 For inference, we provide two ways to read data:
+
 (1) set `test_mel_load` to `0` in `config.json` and write the test set waveform path to `test_input_wavs_dir` in `config.json`, the 
