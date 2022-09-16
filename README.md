@@ -25,4 +25,8 @@ For training, write the list paths of training set and validation set to `input_
 
 For inference, we provide two ways to read data:
 
-(1) set `test_mel_load` to `0` in `config.json` and write the test set waveform path to `test_input_wavs_dir` in `config.json`, the 
+(1) set `test_mel_load` to `0` in `config.json` and write the test set waveform path to `test_input_wavs_dir` in `config.json`, the inference process will first load the waveform, then extract the mel spectrogram, and finally synthesize the waveform through the vocoder;
+
+(2) set `test_mel_load` to `1` in `config.json` and write the test set mel spectrogram (size is `80*frames`) path to `test_input_mels_dir` in `config.json`, the inference process will dierctly load the mel spectrogram, and then synthesize the waveform through the vocoder.
+
+
