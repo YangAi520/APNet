@@ -55,3 +55,13 @@ CUDA_VISIBLE_DEVICES=CPU python inference.py
 
 ## Acknowledgements
 We referred to [HiFi-GAN](https://github.com/jik876/hifi-gan) to implement this.
+
+## Citation
+```
+@article{ai2022apnet,
+  title={A{PN}et: An All-Frame-Level Neural Vocoder Incorporating Direct Prediction of Amplitude and Phase Spectra},
+  author={Ai, Yang and Ling, Zhen-Hua},
+  journal={arXiv preprint arXiv:},
+  year={2022}
+}
+```
