@@ -29,4 +29,4 @@ For inference, we provide two ways to read data:
 
 (2) set `test_mel_load` to `1` in `config.json` and write the test set mel spectrogram (size is `80*frames`) path to `test_input_mels_dir` in `config.json`, the inference process will dierctly load the mel spectrogram, and then synthesize the waveform through the vocoder.
 
-
+**Note :** The sampling rate of speech waveforms must be 16kHz in this version of the code.
