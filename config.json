@@ -14,9 +14,9 @@
     "seed": 1234,
     "training_epochs": 3100,
     "stdout_interval":5,
-    "checkpoint_interval": 20,
+    "checkpoint_interval": 5000,
     "summary_interval": 100,
-    "validation_interval": 20,
+    "validation_interval": 5000,
     "checkpoint_path": "cp_APNet",
     "checkpoint_file_load": "cp_APNet/g_02030000",
 
