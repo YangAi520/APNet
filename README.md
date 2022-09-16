@@ -32,6 +32,8 @@ For inference, we provide two ways to read data:
 **Note :** The sampling rate of speech waveforms must be 16kHz in this version of the code.
 
 ## Training
+
+Run
 ```
 CUDA_VISIBLE_DEVICES=0 python train.py
 ```
