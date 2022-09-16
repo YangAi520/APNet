@@ -19,3 +19,6 @@ tensorboard==2.8.0
 soundfile==0.10.3
 matplotlib==3.1.3
 ```
+
+## Data Preparation
+For training, write the list paths of training set and validation set on `input_training_wav_list` and `input_validation_wav_list` in `config.json`, respectively.
