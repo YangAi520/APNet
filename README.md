@@ -32,13 +32,23 @@ For inference, we provide two ways to read data:
 **Note :** The sampling rate of speech waveforms must be 16kHz in this version of the code.
 
 ## Training
-
-Run
+Run using GPU:
 ```
 CUDA_VISIBLE_DEVICES=0 python train.py
 ```
-
 Using TensorBoard to monitor the training process:
 ```
 tensorboard --logdir=cp_APNet/logs
+```
+
+## Inference:
+Write the checkpoint path to `checkpoint_file_load` in `config.json`.
+
+Run using GPU:
+```
+CUDA_VISIBLE_DEVICES=0 python inference.py
+```
+Run using CPU:
+```
+CUDA_VISIBLE_DEVICES=CPU python inference.py
 ```
