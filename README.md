@@ -35,3 +35,8 @@ For inference, we provide two ways to read data:
 ```
 CUDA_VISIBLE_DEVICES=0 python train.py
 ```
+
+Using TensorBoard to monitor the training process:
+```
+tensorboard --logdir=cp_APNet/logs
+```
