@@ -12,10 +12,10 @@ Visit our [demo website](http://staff.ustc.edu.cn/~yangai/APNet/demo.html) for a
 
 ## Requirements
 ```
-torch==1.4.0
-numpy==1.17.4
-librosa==0.7.2
-tensorboard==2.0
-soundfile==0.10.3.post1
+torch==1.8.1+cu111
+numpy==1.21.6
+librosa==0.9.1
+tensorboard==2.8.0
+soundfile==0.10.3
 matplotlib==3.1.3
 ```
