@@ -1,7 +1,7 @@
 # APNet: An All-Frame-Level Neural Vocoder Incorporating Direct Prediction of Amplitude and Phase Spectra
 ### Yang Ai, Zhen-Hua Ling
 
-In our [paper](https://arxiv.org/xxx), 
+In our [paper](https://arxiv.org/2305.07952), 
 we proposed APNet: An all-frame-level neural vocoder reconstructing speech waveforms from acoustic features by predicting amplitude and phase spectra directly.<br/>
 We provide our implementation as open source in this repository.
 
